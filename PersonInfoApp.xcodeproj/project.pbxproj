@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		A9393A8D25480957002C4455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9393A8C25480957002C4455 /* AppDelegate.swift */; };
 		A9393A8F25480957002C4455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9393A8E25480957002C4455 /* SceneDelegate.swift */; };
-		A9393A9125480957002C4455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9393A9025480957002C4455 /* ViewController.swift */; };
+		A9393A9125480957002C4455 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9393A9025480957002C4455 /* LogInViewController.swift */; };
 		A9393A9425480957002C4455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9393A9225480957002C4455 /* Main.storyboard */; };
 		A9393A9625480959002C4455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9393A9525480959002C4455 /* Assets.xcassets */; };
 		A9393A9925480959002C4455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9393A9725480959002C4455 /* LaunchScreen.storyboard */; };
+		A9393AA425481672002C4455 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9393AA325481672002C4455 /* WelcomeViewController.swift */; };
+		A93AAF6A2548187A0007F3C3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF692548187A0007F3C3 /* User.swift */; };
+		A93AAF6D2548245A0007F3C3 /* AboutUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF6C2548245A0007F3C3 /* AboutUserViewController.swift */; };
+		A93AAF70254824980007F3C3 /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF6F254824980007F3C3 /* MoreDetailsViewController.swift */; };
+		A93AAF73254867F30007F3C3 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF72254867F30007F3C3 /* MoreInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9393A8925480957002C4455 /* PersonInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9393A8C25480957002C4455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9393A8E25480957002C4455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9393A9025480957002C4455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9393A9025480957002C4455 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		A9393A9325480957002C4455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9393A9525480959002C4455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9393A9825480959002C4455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9393A9A25480959002C4455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9393AA325481672002C4455 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A93AAF692548187A0007F3C3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A93AAF6C2548245A0007F3C3 /* AboutUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserViewController.swift; sourceTree = "<group>"; };
+		A93AAF6F254824980007F3C3 /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
+		A93AAF72254867F30007F3C3 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				A9393A8C25480957002C4455 /* AppDelegate.swift */,
 				A9393A8E25480957002C4455 /* SceneDelegate.swift */,
-				A9393A9025480957002C4455 /* ViewController.swift */,
+				A9393A9025480957002C4455 /* LogInViewController.swift */,
 				A9393A9225480957002C4455 /* Main.storyboard */,
+				A9393AA325481672002C4455 /* WelcomeViewController.swift */,
+				A93AAF6C2548245A0007F3C3 /* AboutUserViewController.swift */,
+				A93AAF6F254824980007F3C3 /* MoreDetailsViewController.swift */,
+				A93AAF72254867F30007F3C3 /* MoreInfoViewController.swift */,
+				A93AAF692548187A0007F3C3 /* User.swift */,
 				A9393A9525480959002C4455 /* Assets.xcassets */,
 				A9393A9725480959002C4455 /* LaunchScreen.storyboard */,
 				A9393A9A25480959002C4455 /* Info.plist */,
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9393A9125480957002C4455 /* ViewController.swift in Sources */,
+				A9393A9125480957002C4455 /* LogInViewController.swift in Sources */,
+				A9393AA425481672002C4455 /* WelcomeViewController.swift in Sources */,
 				A9393A8D25480957002C4455 /* AppDelegate.swift in Sources */,
+				A93AAF70254824980007F3C3 /* MoreDetailsViewController.swift in Sources */,
+				A93AAF6A2548187A0007F3C3 /* User.swift in Sources */,
+				A93AAF73254867F30007F3C3 /* MoreInfoViewController.swift in Sources */,
 				A9393A8F25480957002C4455 /* SceneDelegate.swift in Sources */,
+				A93AAF6D2548245A0007F3C3 /* AboutUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +309,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFD2F7523G;
 				INFOPLIST_FILE = PersonInfoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Alexander.Pismenskiy.PersonInfoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -308,10 +330,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFD2F7523G;
 				INFOPLIST_FILE = PersonInfoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Alexander.Pismenskiy.PersonInfoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
