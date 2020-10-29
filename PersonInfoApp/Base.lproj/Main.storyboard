@@ -26,11 +26,17 @@
                                 <rect key="frame" x="33" y="315" width="118" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Forgot User Name?"/>
+                                <connections>
+                                    <action selector="forgotUserNameButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0X-gk-AkO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFx-4Q-b13">
                                 <rect key="frame" x="178" y="315" width="109" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Forgot Password?"/>
+                                <connections>
+                                    <action selector="forgotPasswordButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="rvo-jW-Zs2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipn-w3-tRo">
                                 <rect key="frame" x="127" y="263" width="66" height="42"/>
@@ -78,7 +84,7 @@
         <!--About User View Controller-->
         <scene sceneID="60b-wA-rIQ">
             <objects>
-                <viewController id="5cs-lC-i6Y" customClass="AboutUserViewController" sceneMemberID="viewController">
+                <viewController id="5cs-lC-i6Y" customClass="AboutUserViewController" customModule="PersonInfoApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V88-5r-7Bu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,23 +114,38 @@
         <!--More Details View Controller-->
         <scene sceneID="KdE-Y8-fTA">
             <objects>
-                <viewController id="2YQ-Br-qAD" customClass="MoreDetailsViewController" sceneMemberID="viewController">
+                <viewController id="2YQ-Br-qAD" customClass="MoreDetailsViewController" customModule="PersonInfoApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ah-Jb-mo5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1U-9n-8pi">
+                                <rect key="frame" x="123.5" y="91" width="73.5" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="yXe-LO-xc8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="R1U-9n-8pi" firstAttribute="centerX" secondItem="0ah-Jb-mo5" secondAttribute="centerX" id="p71-hW-hzr"/>
+                            <constraint firstItem="R1U-9n-8pi" firstAttribute="top" secondItem="yXe-LO-xc8" secondAttribute="top" id="sDA-2C-fvE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nyd-4s-r6i"/>
+                    <connections>
+                        <outlet property="label" destination="R1U-9n-8pi" id="GaZ-Rt-mUb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ty1-h3-xIG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2721" y="918"/>
+            <point key="canvasLocation" x="2614" y="918"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="mqT-Xb-EbL">
             <objects>
-                <viewController id="IRQ-T1-f3N" customClass="WelcomeViewController" sceneMemberID="viewController">
+                <viewController id="IRQ-T1-f3N" customClass="WelcomeViewController" customModule="PersonInfoApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KBB-WC-l4J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,9 +166,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hellow" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1V7-BR-duE">
                                 <rect key="frame" x="108.5" y="197" width="103" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="103" id="E0c-2E-tge"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

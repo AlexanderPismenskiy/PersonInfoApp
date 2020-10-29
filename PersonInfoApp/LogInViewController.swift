@@ -18,7 +18,7 @@ class LogInViewController: UIViewController {
         let tabBarController = segue.destination as! UITabBarController
         let welcomeVC = tabBarController.viewControllers?.first as! WelcomeViewController
         let navigationVC = tabBarController.viewControllers?.last as! UINavigationController
-            let aboutUserVC = navigationVC.topViewController as! AboutUserViewController
+        let aboutUserVC = navigationVC.topViewController as! AboutUserViewController
         welcomeVC.user = user
         aboutUserVC.user = user
     }
@@ -36,8 +36,16 @@ class LogInViewController: UIViewController {
         
         performSegue(withIdentifier: "logIn", sender: nil)
     }
+  
     
-        
+    
+    @IBAction func forgotUserNameButton() {
+        showAlert(title: "No problem", message: "Your user name is \(user.login)")
+    }
+    
+    @IBAction func forgotPasswordButton() {
+        showAlert(title: "No problem", message: "Your passeord is \(user.password)")
+    }
     
     @IBAction func unwindSegue(segue: UIStoryboardSegue) {
         userNameTextField.text = nil
@@ -59,6 +67,7 @@ extension LogInViewController {
 }
 
 // MARK: Text Field Delegate
+
 extension LogInViewController: UITextFieldDelegate {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

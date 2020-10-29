@@ -15,4 +15,9 @@ class AboutUserViewController: UIViewController {
         super.viewDidLoad()
         title = user.persone.fullName
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let moreDetailsVC = segue.destination as! MoreDetailsViewController
+        moreDetailsVC.user = user
+    }
 }

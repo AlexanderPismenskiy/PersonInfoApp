@@ -15,7 +15,7 @@ struct User {
         User(
             login: "Alex",
             password: "12345",
-            persone: Person(name: "Alexander", surname: "Pismenskiy")
+            persone: Person(name: "Alexander", surname: "Pismenskiy", hobby: "Tennis")
         )
     }
 }
@@ -24,6 +24,7 @@ struct User {
 struct Person {
     let name: String
     let surname: String
+    let hobby: String
     
     var fullName: String {
         "\(name), \(surname)"
