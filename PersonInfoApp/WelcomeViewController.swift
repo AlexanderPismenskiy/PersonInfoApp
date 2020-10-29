@@ -9,6 +9,13 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
     
+    var user: User!
     
+    @IBOutlet var hellowLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        hellowLabel.text = user.login
+    }
 }
 

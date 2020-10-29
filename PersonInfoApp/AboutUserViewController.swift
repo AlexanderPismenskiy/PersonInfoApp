@@ -7,6 +7,12 @@
 
 import UIKit
 
-class AboutUserViewController: UIViewController{
+class AboutUserViewController: UIViewController {
     
+    var user: User!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        title = user.persone.fullName
+    }
 }

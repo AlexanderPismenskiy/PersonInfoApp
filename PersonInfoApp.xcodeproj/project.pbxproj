@@ -17,7 +17,6 @@
 		A93AAF6A2548187A0007F3C3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF692548187A0007F3C3 /* User.swift */; };
 		A93AAF6D2548245A0007F3C3 /* AboutUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF6C2548245A0007F3C3 /* AboutUserViewController.swift */; };
 		A93AAF70254824980007F3C3 /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF6F254824980007F3C3 /* MoreDetailsViewController.swift */; };
-		A93AAF73254867F30007F3C3 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AAF72254867F30007F3C3 /* MoreInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		A93AAF692548187A0007F3C3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A93AAF6C2548245A0007F3C3 /* AboutUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserViewController.swift; sourceTree = "<group>"; };
 		A93AAF6F254824980007F3C3 /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
-		A93AAF72254867F30007F3C3 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +66,11 @@
 			children = (
 				A9393A8C25480957002C4455 /* AppDelegate.swift */,
 				A9393A8E25480957002C4455 /* SceneDelegate.swift */,
-				A9393A9025480957002C4455 /* LogInViewController.swift */,
 				A9393A9225480957002C4455 /* Main.storyboard */,
+				A9393A9025480957002C4455 /* LogInViewController.swift */,
 				A9393AA325481672002C4455 /* WelcomeViewController.swift */,
 				A93AAF6C2548245A0007F3C3 /* AboutUserViewController.swift */,
 				A93AAF6F254824980007F3C3 /* MoreDetailsViewController.swift */,
-				A93AAF72254867F30007F3C3 /* MoreInfoViewController.swift */,
 				A93AAF692548187A0007F3C3 /* User.swift */,
 				A9393A9525480959002C4455 /* Assets.xcassets */,
 				A9393A9725480959002C4455 /* LaunchScreen.storyboard */,
@@ -157,7 +154,6 @@
 				A9393A8D25480957002C4455 /* AppDelegate.swift in Sources */,
 				A93AAF70254824980007F3C3 /* MoreDetailsViewController.swift in Sources */,
 				A93AAF6A2548187A0007F3C3 /* User.swift in Sources */,
-				A93AAF73254867F30007F3C3 /* MoreInfoViewController.swift in Sources */,
 				A9393A8F25480957002C4455 /* SceneDelegate.swift in Sources */,
 				A93AAF6D2548245A0007F3C3 /* AboutUserViewController.swift in Sources */,
 			);
